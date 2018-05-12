@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 61193780548034162}
   - component: {fileID: 114938628145571202}
   m_Layer: 0
-  m_Name: 1 hit
-  m_TagString: Untagged
+  m_Name: purple
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1762648464088624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 9.19, z: 0}
+  m_LocalPosition: {x: 9, y: 9.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,8 +58,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.3203125}
-    newSize: {x: 1.28, y: 0.41}
+    oldSize: {x: 1, y: 0.3125}
+    newSize: {x: 1.28, y: 0.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -78,7 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0cff0696607434bb883b6a78b49a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
+  crack: {fileID: 8300000, guid: f970325febf5ade4b9562fc1f72fa34b, type: 3}
+  HitSprites: []
 --- !u!212 &212637495884502314
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -114,12 +115,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3b019a9cd332c5e48b5b08a3afdf4173, type: 3}
-  m_Color: {r: 1, g: 0.95774907, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 24f3f2ef51dc7dc44ac36636cb960d50, type: 3}
+  m_Color: {r: 1, g: 0, b: 0.8671875, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.28, y: 0.41}
+  m_Size: {x: 1.28, y: 0.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
