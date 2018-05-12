@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1762648464088624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 9.19, z: 0}
+  m_LocalPosition: {x: -6.5, y: 0.06000042, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -66,7 +66,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 0.3203125}
-  m_EdgeRadius: 0
+  m_EdgeRadius: 0.001
 --- !u!114 &114938628145571202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -79,7 +79,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crack: {fileID: 8300000, guid: f970325febf5ade4b9562fc1f72fa34b, type: 3}
-  HitSprites: []
+  HitSprites:
+  - {fileID: 21300006, guid: 24f3f2ef51dc7dc44ac36636cb960d50, type: 3}
 --- !u!212 &212637495884502314
 SpriteRenderer:
   m_ObjectHideFlags: 1

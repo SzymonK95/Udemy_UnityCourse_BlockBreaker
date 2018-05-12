@@ -79,7 +79,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crack: {fileID: 8300000, guid: f970325febf5ade4b9562fc1f72fa34b, type: 3}
-  HitSprites: []
+  HitSprites:
+  - {fileID: 21300006, guid: 24f3f2ef51dc7dc44ac36636cb960d50, type: 3}
+  - {fileID: 21300008, guid: 24f3f2ef51dc7dc44ac36636cb960d50, type: 3}
 --- !u!212 &212637495884502314
 SpriteRenderer:
   m_ObjectHideFlags: 1
