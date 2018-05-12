@@ -7,6 +7,7 @@ public class Brick : MonoBehaviour
     public AudioClip crack;
     public Sprite[] HitSprites;
     public static int BreakableCount = 0;
+    public GameObject smoke;
 
     private int _maxHits;
     private int _timesHit;
@@ -35,7 +36,7 @@ public class Brick : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision2D)
     { 
-        AudioSource.PlayClipAtPoint(crack,transform.position);
+        AudioSource.PlayClipAtPoint(crack,transform.position, 0.8f);
         if (_isBreakable)
         {
             HandleHits();
@@ -54,12 +55,20 @@ public class Brick : MonoBehaviour
         {
             BreakableCount--;
             _levelManager.BrickDestroyed();
+            PuffSmoke();
             Destroy(gameObject);
         }
         else
         {
             LoadSprites();
         }
+    }
+
+    private void PuffSmoke()
+    {
+        GameObject smokePuff = Instantiate(smoke,gameObject.transform.position,Quaternion.identity) as GameObject;
+        ParticleSystem.MainModule main = smokePuff.GetComponent<ParticleSystem>().main;
+        main.startColor = GetComponent<SpriteRenderer>().color;
     }
 
     private void LoadSprites()
