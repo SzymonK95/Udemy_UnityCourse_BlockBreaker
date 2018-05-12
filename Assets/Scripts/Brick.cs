@@ -40,6 +40,10 @@ public class Brick : MonoBehaviour
         {
             HandleHits();
         }
+        else
+        {
+            Debug.LogError("Brick sprite missing");
+        }
     }
 
     private void HandleHits()
