@@ -8,12 +8,14 @@ public class Ball : MonoBehaviour
 
     private bool hasStarted = false;
     private Vector3 paddleToBallVector3;
+    private Vector3 defaultBallPosition;
 
 	// Use this for initialization
 	void Start ()
 	{
 	    paddle = GameObject.FindObjectOfType<Paddle>();
 	    paddleToBallVector3 = this.transform.position - paddle.transform.position;
+	    defaultBallPosition = this.transform.position;
 	}
 	
 	// Update is called once per frame
@@ -40,6 +42,11 @@ public class Ball : MonoBehaviour
             GetComponent<AudioSource>().Play();
             GetComponent<Rigidbody2D>().velocity += tweak;
         }
+    }
 
+    public void SetOnDefault()
+    {
+        this.transform.position = defaultBallPosition;
+        this.hasStarted = false;
     }
 }

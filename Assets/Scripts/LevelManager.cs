@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Threading;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
@@ -31,5 +33,4 @@ public class LevelManager : MonoBehaviour
             LoadNextLevel();
         }
     }
-
 }

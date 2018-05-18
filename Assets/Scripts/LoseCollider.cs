@@ -4,17 +4,29 @@ using UnityEngine;
 
 public class LoseCollider : MonoBehaviour
 {
-
-    public LevelManager LevelManager;
+    private LevelManager _levelManager;
+    private HealthManager _healthManager;
+    private Ball _ball;
 
     void OnTriggerEnter2D (Collider2D trigger)
     {
-        LevelManager = GameObject.FindObjectOfType<LevelManager>();
-        LevelManager.LoadLevel("Lose Screen");
+        _levelManager = GameObject.FindObjectOfType<LevelManager>();
+        _healthManager = GameObject.FindObjectOfType<HealthManager>();
+        _ball = GameObject.FindObjectOfType<Ball>();
+
+        if (_healthManager.GetLives() <= 1)
+        {
+            _levelManager.LoadLevel("Lose Screen");
+        }
+        else
+        {
+            _healthManager.UpdateLives(-1);
+            _ball.SetOnDefault();
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        print("Collision");
+        
     }
 }
