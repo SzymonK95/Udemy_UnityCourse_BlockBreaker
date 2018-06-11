@@ -316,7 +316,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4962473919896954, guid: 08666ebe0ed37d246be481dcb7ec1a4f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.75
+      value: 0.736
       objectReference: {fileID: 0}
     - target: {fileID: 4962473919896954, guid: 08666ebe0ed37d246be481dcb7ec1a4f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -342,11 +342,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114593054405113002, guid: 08666ebe0ed37d246be481dcb7ec1a4f,
-        type: 2}
-      propertyPath: paddle
-      value: 
-      objectReference: {fileID: 1645039004}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08666ebe0ed37d246be481dcb7ec1a4f, type: 2}
   m_IsPrefabParent: 0
@@ -552,6 +547,136 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114961213592294680, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114123315866444262, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114848239120060242, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114198572810786724, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114766725543499714, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114506662095625216, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114126032220113098, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114144975938829812, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114239853336651390, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114411375210721304, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114810794458010772, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114317039642964348, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114044200352018924, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114615036343253360, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114984980795125614, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114865565230254318, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114317559346015340, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114841872145789798, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114171814381300052, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114608588718949550, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114501229210186628, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114263140697824162, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114930181191499156, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114398028700178764, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114084776128539168, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
+    - target: {fileID: 114664904976414924, guid: b5f174494c0bc0448a44a0864840944d,
+        type: 2}
+      propertyPath: crack
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7b29bd4305d4d4c98e1b9b51b1c0c1, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5f174494c0bc0448a44a0864840944d, type: 2}
   m_IsPrefabParent: 0
@@ -669,12 +794,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   livesCountText: {fileID: 1844850289}
---- !u!114 &1645039004 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114272274290660498, guid: cfcb4bb0f71c178439ab1c8cde1b3484,
-    type: 2}
-  m_PrefabInternal: {fileID: 1981974592}
-  m_Script: {fileID: 11500000, guid: 294cda66b8e66f3448a53d878b43ebe5, type: 3}
 --- !u!1 &1844850287
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +881,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4172291416917956, guid: cfcb4bb0f71c178439ab1c8cde1b3484, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.5007
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4172291416917956, guid: cfcb4bb0f71c178439ab1c8cde1b3484, type: 2}
       propertyPath: m_LocalPosition.z
