@@ -7,14 +7,15 @@ using UnityEngine.UI;
 public class TimeManager : MonoBehaviour
 {
     private LevelManager _levelManager;
-    private HealthManager _healthManager;
+    private PlayerManager _playerManager;
     private float targetTime;
     public Text targetTimeText;
 
     void Start()
     {
         _levelManager = GameObject.FindObjectOfType<LevelManager>();
-        _healthManager = GameObject.FindObjectOfType<HealthManager>();
+        _playerManager = GameObject.FindObjectOfType<PlayerManager>();
+        targetTimeText = GameObject.Find("Time").GetComponent<Text>();
         targetTime = 200f;
     }
 
@@ -25,7 +26,7 @@ public class TimeManager : MonoBehaviour
 
         if (targetTime <= 0.0f)
         {
-            if (_healthManager.GetLives() < 0)
+            if (_playerManager.GetLives() < 0)
             {
                 Debug.Log("End of time");
                 timerEnded();
@@ -33,7 +34,7 @@ public class TimeManager : MonoBehaviour
             else
             {
                 targetTime += 60f;
-                _healthManager.UpdateLives(-1);
+                _playerManager.SetLives(-1);
             }
         }
     }
@@ -41,5 +42,10 @@ public class TimeManager : MonoBehaviour
     void timerEnded()
     {
         _levelManager.LoadLevel("Lose Screen");
+    }
+
+    public float GetTime()
+    {
+        return targetTime;
     }
 }

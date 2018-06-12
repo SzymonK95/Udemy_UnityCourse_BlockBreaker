@@ -12,6 +12,7 @@ public class Brick : MonoBehaviour
     private int _maxHits;
     private int _timesHit;
     private LevelManager _levelManager;
+    private PlayerManager _playerManager;
     private bool _isBreakable;
 
     // Use this for initialization
@@ -27,7 +28,8 @@ public class Brick : MonoBehaviour
 	    }
 
         _levelManager = GameObject.FindObjectOfType<LevelManager>();
-	}
+        _playerManager = GameObject.FindObjectOfType<PlayerManager>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -50,6 +52,7 @@ public class Brick : MonoBehaviour
     private void HandleHits()
     {
         _timesHit++;
+        _playerManager.SetScore(10);
 
         if (_timesHit >= _maxHits)
         {

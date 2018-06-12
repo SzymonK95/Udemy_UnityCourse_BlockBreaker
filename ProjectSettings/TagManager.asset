@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Breakable
   - Unbreakable
+  - Time
+  - Lives
+  - Score
   layers:
   - Default
   - TransparentFX
